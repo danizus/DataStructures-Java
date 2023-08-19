@@ -1,7 +1,7 @@
 
 
 
-// check if a word is a palindrome
+// check if a word is a palindrome using recursion
 public class checkPalindrome {
 	
 	public static boolean checkPalindrome(String originalString,int startingPoint,int endingPoint){
