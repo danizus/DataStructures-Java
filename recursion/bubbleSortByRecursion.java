@@ -19,7 +19,11 @@ public class bubbleSortByRecursion {
 				array[i+1] = temp;
 			}
 		}
+<<<<<<< HEAD
 		// recursive case
+=======
+		//recursive case
+>>>>>>> 86a9ba4608e1e9abbef16c5f0e6f2875b3565d23
 		bubbleSortUsingRecursion(array,size-1);
 
 		
