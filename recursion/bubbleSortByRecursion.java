@@ -11,7 +11,7 @@ public class bubbleSortByRecursion {
 			return ;
 		}
 		
-		//recursive case
+		//processing
 		for(int i=0;i<size-1;i++) {
 			if(array[i]>array[i+1]) {
 				int temp = array[i];
@@ -19,7 +19,7 @@ public class bubbleSortByRecursion {
 				array[i+1] = temp;
 			}
 		}
-		
+		//recursive case
 		bubbleSortUsingRecursion(array,size-1);
 
 		
