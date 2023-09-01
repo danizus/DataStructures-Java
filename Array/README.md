@@ -73,6 +73,7 @@ These are some of the commonly used methods for working with arrays in Java. The
 An ArrayList is like a flexible list where you can store multiple items. It can hold different types of data, like numbers, words, or objects, and you don't need to decide the size in advance.
 
 In Java, you can use various methods on an `ArrayList` to manipulate and work with the data stored in the list. Here are some commonly used methods for `ArrayList`:
+
 **METHODS**
 
 1. **Adding Elements**:
