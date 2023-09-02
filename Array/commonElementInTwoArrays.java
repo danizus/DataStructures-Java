@@ -3,7 +3,7 @@ import java.util.*;
 
 
 
-public class commonElementInArray {
+public class commonElementInTwoArrays {
 	
 
    static public ArrayList<Integer> intersection(int arr[],int arr1[]) {
