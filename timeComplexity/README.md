@@ -30,3 +30,4 @@ Sure, here are the time complexities for common loop scenarios:
 4. **Loop Within a Loop (Nested but Not Fully):** Depends on the exact behavior.
 5. **Loop with Varying Bounds:** Depends on the specific behavior, O(k) where 'k' depends on the input.
 6. **Recursive Loops:** Depends on the number of recursive calls and what happens at each level of recursion.
+
