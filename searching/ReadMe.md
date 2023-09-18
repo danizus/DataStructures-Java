@@ -25,4 +25,4 @@ Linear search, also known as sequential search, is a straightforward algorithm u
 
 ## Implementation
 
-In this repository, you will find sample implementations of both binary search and linear search in various programming languages.
+In this repository, you will find sample implementations of both binary search and linear search in Java.
