@@ -20,7 +20,6 @@ public static	void  max_min(int array[]){
 	 }
 
 	
-	
 	public static void main(String[] args) {
 		
 		int[] array = {0,8,10,3,12,2,1};

@@ -21,15 +21,11 @@ public class fibonacci {
     
    }
 	
-	}
+	
 	public static void main(String[] args) {
 		
 		
-		System.out.println(Fibonacci(8));
-		
-		
-		 
-		
+		System.out.println(Fibonacci(8));	 	
 	}
 }
 
