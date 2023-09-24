@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-
+// using binary search 
 
 
 public class firstAndLastPositionUsingBinarySearch {
@@ -24,7 +24,7 @@ public class firstAndLastPositionUsingBinarySearch {
 			else {
 				end = end-1;
 			}
-			mid = (end + start)/2;
+			mid = start + (end - start)/2;
 		}
 		return answer;
 	        
