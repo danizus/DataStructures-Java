@@ -1,6 +1,6 @@
 ## Binary Search
 
-Binary search is an efficient algorithm used for finding a specific element in a sorted collection (e.g., an array). It works by repeatedly dividing the search interval in half, eliminating half of the remaining elements in each step, until the target element is found or determined to be absent. Binary search has a time complexity of O(log n), making it significantly faster than linear search for large datasets.
+Binary search is an efficient algorithm used for finding a specific element in a sorted collection (e.g., an array). It works by repeatedly dividing the search interval in half, eliminating half of the remaining elements in each step, until the target element is found or determined to be absent. Binary search has a time **complexity of O(log n)**, making it significantly faster than linear search for large datasets.
 
 ### How Binary Search Works
 **use start + (end - start)/2 to find the mid this function will not throw error if the start and end values are more than the integer limit**
@@ -13,7 +13,7 @@ Binary search is an efficient algorithm used for finding a specific element in a
 
 ## Linear Search
 
-Linear search, also known as sequential search, is a straightforward algorithm used to find a specific element in an unsorted or sorted collection of data. It works by iterating through the entire collection, checking each element one by one until the target element is found or the end of the collection is reached. Linear search has a time complexity of O(n).
+Linear search, also known as sequential search, is a straightforward algorithm used to find a specific element in an unsorted or sorted collection of data. It works by iterating through the entire collection, checking each element one by one until the target element is found or the end of the collection is reached. Linear search has a time **complexity of O(n)**.
 
 ### How Linear Search Works
 
