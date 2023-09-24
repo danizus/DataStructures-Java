@@ -26,3 +26,18 @@ Linear search, also known as sequential search, is a straightforward algorithm u
 ## Implementation
 
 In this repository, you will find sample implementations of both binary search and linear search in Java.
+
+
+## Rotated sorted array
+
+A rotated sorted array, also known as a rotated array or rotated sorted list, is an array or list that was originally sorted in ascending order but has been rotated by some number of positions. This rotation means that some elements from one end of the array have been moved to the other end, changing the original order of elements. Despite the rotation, the array still maintains a certain degree of sorted order.
+
+For example, consider the following sorted array:
+
+Original Sorted Array: [1, 2, 3, 4, 5, 6]
+
+Now, let's rotate it by three positions to the right:
+
+Rotated Sorted Array: [4, 5, 6, 1, 2, 3]
+
+In this rotated sorted array, you can see that the elements are still in ascending order, but the original order has been shifted.
