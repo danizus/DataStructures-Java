@@ -37,13 +37,32 @@ import java.util.*;
 			return answer;
 			   
 		   }
+
+		   public static double morePrecision(int  tempSol,int number,int precision) {
+			double answer = tempSol ;
+			double factor = 1;
+			
+			for(int i = 0;i<precision;i++) {
+				factor = factor/10;
+				
+				for(double j = answer ;(j*j)< number; j = j+factor) {
+					 		answer = j;
+					 		
+				}
+				
+				
 		  
-		
+			}
+			return answer;
+		}
 		
 	    public static void main(String[] args) {
 	    
-	    	
-	    	System.out.println("The square root is : "+findSquareRootUsingBinarySearch(4));
+	    	int tempsol = findSquareRootUsingBinarySearch(37);
+	    	// System.out.println("The square root is : "+findSquareRootUsingBinarySearch(4));
+			System.out.println(morePrecision(tempsol,37,3));
+			
+
 	    	
 	    	
 	    }
