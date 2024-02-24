@@ -4,7 +4,7 @@ public class ReverseArrayByRecursion{
    static public void reverseArray(int arr[], int start,int end) {
 	  
 	   // 1 base case
-	   if(start>= end) {  
+	   if(start > end) {  
 		   return ;
 	   }
 	   // recursive case
